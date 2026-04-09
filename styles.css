@@ -1,0 +1,207 @@
+/* Background halaman */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    margin: 0;
+    padding: 0;
+}
+
+/* Box utama */
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Judul */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form input */
+form input,
+form textarea,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+/* Tombol */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: #007bff;
+    color: blue;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Link */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background: #007bff;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* Tombol aksi */
+.action-btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.update {
+    background: orange;
+}
+
+.hapus {
+    background: red;
+}
+
+/* Logout */
+.logout {
+    background: red;
+}
+/* Container biar rapi */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Judul */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Zebra */
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* Hover */
+tr:hover {
+    background: #ddd;
+}
+
+/* Tombol kembali */
+.back-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+.back-btn:hover {
+    background: #0056b3;
+}
+/* Box login khusus */
+.login-container {
+    width: 350px;
+    margin: 100px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Judul */
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Input */
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Tombol login */
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background: #0056b3;
+}
+
+/* Tombol kembali */
+.back-login {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007bff;
+}
